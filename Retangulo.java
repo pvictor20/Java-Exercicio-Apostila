@@ -10,11 +10,18 @@ public class Retangulo extends Figura {
 
     
     public double calcularArea() {
-        return largura * altura;
+        return (int) (largura * altura);
     }
 
    
-    public double calcularPerimetro() {
-        return 2 * (largura + altura);
+    public int calcularPerimetro() {
+        return (int) (2 * (largura + altura));
+    }
+
+
+    @Override
+    public double calcularVolume() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'calcularVolume'");
     }
 }

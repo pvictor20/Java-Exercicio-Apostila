@@ -10,12 +10,19 @@ public class Losango extends Figura {
 
  
     public double calcularArea() {
-        return 0.5 * diagonalMaior * diagonalMenor;
+        return (int) (0.5 * diagonalMaior * diagonalMenor);
     }
 
   
-    public double calcularPerimetro() {
-        return 4 * diagonalMaior;
+    public int calcularPerimetro() {
+        return (int) (4 * diagonalMaior);
+    }
+
+
+    @Override
+    public double calcularVolume() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'calcularVolume'");
     }
 }
 

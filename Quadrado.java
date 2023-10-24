@@ -7,11 +7,17 @@ public class Quadrado extends Figura {
     }
     
     public double calcularArea() {
-        return lado * lado;
+        return (int) (lado * lado);
     }
 
     
-    public double calcularPerimetro() {
-        return 4 * lado;
+    public int calcularPerimetro() {
+        return (int) (4 * lado);
+    }
+
+    @Override
+    public double calcularVolume() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'calcularVolume'");
     }
 }

@@ -1,20 +1,18 @@
-public class Figura {
+public abstract class Figura {
+
     private String nome;
 
     public Figura(String nome) {
         this.nome = nome;
     }
 
-    public double calcularArea() {
-        return 0;
-    }
+    public abstract double calcularArea();
 
-    public double calcularPerimetro() {
-        return 0;
-    }
+    public abstract double calcularVolume();
+
+    public abstract int calcularPerimetro();
 
     public String getNome() {
         return nome;
     }
 }
-

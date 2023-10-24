@@ -8,12 +8,19 @@ public class Circulo extends Figura{
 
    
     public double calcularArea() {
-        return Math.PI * raio * raio;
+        return (int) (Math.PI * raio * raio);
     }
 
    
-    public double calcularPerimetro() {
-        return 2 * Math.PI * raio;
+    public int calcularPerimetro() {
+        return (int) (2 * Math.PI * raio);
+    }
+
+
+    @Override
+    public double calcularVolume() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'calcularVolume'");
     }
 }
 

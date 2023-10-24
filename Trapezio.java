@@ -12,12 +12,19 @@ public class Trapezio extends Figura{
 
     
     public double calcularArea() {
-        return 0.5 * (baseMaior + baseMenor) * altura;
+        return (int) (0.5 * (baseMaior + baseMenor) * altura);
     }
 
     
-    public double calcularPerimetro() {
-        return baseMaior + baseMenor + 2 * altura;
+    public int calcularPerimetro() {
+        return (int) (baseMaior + baseMenor + 2 * altura);
+    }
+
+
+    @Override
+    public double calcularVolume() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'calcularVolume'");
     }
 }
 
