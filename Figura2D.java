@@ -9,16 +9,16 @@ public class Figura2D extends Figura {
     }
 
 
-    @Override
+    
     public double calcularArea() {
-        // TODO Auto-generated method stub
+        
         throw new UnsupportedOperationException("Unimplemented method 'calcularArea'");
     }
 
 
-    @Override
+   
     public double calcularVolume() {
-        // TODO Auto-generated method stub
+        
         throw new UnsupportedOperationException("Unimplemented method 'calcularVolume'");
     }
 }
